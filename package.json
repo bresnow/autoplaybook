@@ -1,0 +1,9 @@
+{
+  "name": "linux-playbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "zx": "^7.1.1"
+  }
+}

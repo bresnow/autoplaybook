@@ -1,0 +1,23 @@
+---
+add helper scripts/ initialization scripts
+  run initialization scripts
+user
+ssh/ ssh config
+  #Port 22
+  #MaxAuthTries 6
+docker
+  swarm 
+  traefik
+
+# sudo adduser bresnow
+# usermod -aG sudo bresnow
+
+sed-patch s/$HOSTNAME/$NEW_HOSTNAME/ /etc/hostname
+
+curl -sSL get.docker.com | sh
+sudo usermod -aG docker 
+await $`sudo systemctl status docker`;
+
+---
+
+
